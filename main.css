@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Open+Sans:wght@500;600&family=Poppins:wght@500&family=Roboto&family=Work+Sans&display=swap');
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(aset/bg.jfif);
+}
+
+.jumbotron {
+    width: 95%;
+    background-image: url(aset/bukit-kelam-sintang-1170x780-1.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+    position: relative;
+}
+
+.jumbotron::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.jumbotron h2::after {
+    content: '';
+    display: block;
+    width: 50%;
+    margin: auto;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.jumbotron .carousel {
+    box-shadow: 20px 40px 40px rgba(0, 0, 0, 0.2);
+    border: 5px solid #2E5676;
+}
+
+.jumbotron .carousel img {
+    height: 300px;
+}
+
+.navbar {
+    background-color: transparent;
+    z-index: 9999999;
+}
+
+.navbar ul li {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar ul li {
+    background: #2E5676;
+    margin-right: 10px;
+    margin-top: 2px;
+    text-align: center;
+    transition: .3s;
+}
+
+.navbar ul li a {
+    color: white;
+    font-weight: 300;
+}
+
+.dropdown-menu {
+    color: white;
+    background-color: black;
+}
+
+.dropdown-menu a:hover {
+    background: #2E5676;
+    color: white;
+}
+
+.box-text {
+    width: 95%;
+    background-color: #2E5676;
+    margin: auto;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.wisata {
+    margin-top: 100px;
+    width: 95%;
+    background-color: #F5F5F5;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.wisata h2 {
+    text-align: center;
+    color: #2E5676;
+}
+
+.wisata .card .card-body {
+    padding: 30px;
+}
+
+.wisata .card-body h3 {
+    font-size: 25px;
+}
+
+.wisata .card-body a {
+    text-decoration: none;
+    transition: .3s;
+    color: black;
+}
+
+.next i {
+    color: #2E5676;
+}
+
+.wisata .card-body a:hover {
+    color: #2E5676;
+    font-weight: bold;
+}
+
+.list-group-item {
+    border: 1px solid white;
+    background-color: #2E5676;
+    transition: .3s;
+}
+
+.list-group-item:hover {
+    background-color: #3c6f99;
+}
+
+footer {
+    margin: auto;
+}
+
+.carousel-control-prev-icon {
+    border: 3px solid #2E5676;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.carousel-control-next-icon {
+    border: 3px solid #2E5676;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.dropdown .dropdown-menu {
+    display: block;
+    opacity: 0;
+    -moz-transition: all 1000ms ease;
+    -webkit-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    transition: all 1000ms ease;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
